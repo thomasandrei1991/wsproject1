@@ -1,0 +1,122 @@
+/* ----------------- Header and Navbar Area ----------------------*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: rgb(141, 2, 141);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+header img{
+    height: 60px;
+    width: 70px;
+    margin: 40px;
+}
+nav{
+    display: flex;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+nav a:hover{
+    color: purple;
+}
+
+.container h1{
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.greetings{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+.greetings h1{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.greetings img{
+    height: 200px;
+    width: 150px;
+}
+
+#home-hover{
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+}
+#about-hover{
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+}
+#services-hover{
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+}
+#contact-hover{
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+    background-color: transparent;
+}
+
+#home-hover:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+#about-hover:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+#services-hover:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+#contact-hover:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+footer{
+    height: 80px;
+    background-color:  rgb(234, 32, 234);
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+body footer{
+    margin-top: 100px;
+}
